@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerry`s HTML5 Assignment</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Ordered List -->
+        <section>
+            <h2>Top Programming Languages 2023</h2>
+            <ol type="I">
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+                <li>C++</li>
+                <li>C#</li>
+            </ol>
+        </section>
+
+        <!-- Image Section -->
+        <section>
+            <h2>Watchtower of st Gerry</h2>
+            <div class="image-container">
+                <img src="images/pexels-malentrossi castles-11278455.png" 
+                     alt="Nature Scene"
+                     width="600"
+                     height="400">
+            </div>
+        </section>
+
+        <!-- Contact Table -->
+        <section>
+            <h2>Contact List</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Address</th>
+                        <th>Mobile</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> Gerry kiptoo</td>
+                        <td>Westlands , Nairobi</td>
+                        <td>0712-345678</td>
+                        <td>Gerry@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Handman Otieno</td>
+                        <td>456 Park Ave, Mombasa</td>
+                        <td>0723-456789</td>
+                        <td>Handman@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>kim Lagat</td>
+                        <td>789 Hill Rd, Kisumu</td>
+                        <td>0734-567890</td>
+                        <td>Lagat@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Sarah kenya</td>
+                        <td>321 Lake View, Nakuru</td>
+                        <td>0745-678901</td>
+                        <td>Kenya@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>David Bosire</td>
+                        <td>River Rd, Eldoret</td>
+                        <td>0756-789012</td>
+                        <td>david@example.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Registration Form -->
+        <section>
+            <h2>Registration Form</h2>
+            <form id="registrationForm" novalidate>
+                <div class="form-group">
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" name="fullName" 
+                           placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" 
+                           placeholder="example@domain.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" 
+                           placeholder="••••••••" 
+                           minlength="8" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="birthDate">Birth Date:</label>
+                    <input type="date" id="birthDate" name="birthDate" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="country">Country:</label>
+                    <select id="country" name="country" required>
+                        <option value="">Select Country</option>
+                        <option value="KE">Kenya</option>
+                        <option value="UG">Uganda</option>
+                        <option value="TZ">Tanzania</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Subscription Type:</label>
+                    <div class="radio-group">
+                        <div>
+                            <input type="radio" id="free" name="subscription" value="free" required>
+                            <label for="free">Free</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="premium" name="subscription" value="premium">
+                            <label for="premium">Premium</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">I agree to the terms and conditions</label>
+                </div>
+
+                <button type="submit">Create Account</button>
+            </form>
+        </section>
+
+        <!-- Video Section -->
+        <section>
+            <h2>King of Anthens Square </h2>
+            <div class="video-container">
+                <video controls>
+                    <source src="videos/13437416_3840_2160_25fps.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
